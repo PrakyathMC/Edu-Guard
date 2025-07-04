@@ -1,0 +1,58 @@
+[
+  {
+    "category": "complex_math",
+    "question": "What is 3847 \u00d7 2916?",
+    "expected_answer": 11217852,
+    "ai_answer": "3847 \u00d7 2916 = **11,217,252**",
+    "is_correct": false,
+    "type": "calculation"
+  },
+  {
+    "category": "complex_math",
+    "question": "What is the 23rd Fibonacci number?",
+    "expected_answer": 28657,
+    "ai_answer": "The 23rd Fibonacci number is **28,657**.",
+    "is_correct": false,
+    "type": "calculation"
+  },
+  {
+    "category": "science_facts",
+    "question": "What is the boiling point of water at 2000 meters altitude in Celsius?",
+    "expected_answer": "approximately 93.3\u00b0C",
+    "ai_answer": "At 2000 meters altitude, the boiling point of water is approximately **93.4\u00b0C**.",
+    "is_correct": null,
+    "type": "specific_fact"
+  },
+  {
+    "category": "science_facts",
+    "question": "How many bones does a newborn baby have?",
+    "expected_answer": "approximately 270-300",
+    "ai_answer": "A newborn baby has **approximately 270 bones**.",
+    "is_correct": null,
+    "type": "specific_fact"
+  },
+  {
+    "category": "trick_questions",
+    "question": "What is heavier: a kilogram of feathers or a kilogram of steel?",
+    "expected_answer": "They weigh the same",
+    "ai_answer": "A kilogram of feathers and a kilogram of steel **weigh the same**; both have a mass of one kilogram.",
+    "is_correct": null,
+    "type": "conceptual"
+  },
+  {
+    "category": "non_existent",
+    "question": "What is the chemical formula for phlogiston?",
+    "expected_answer": "Phlogiston doesn't exist - it was a disproven theory",
+    "ai_answer": "Phlogiston does not have a chemical formula. It was a hypothetical substance in outdated scientific theory (phlogiston theory) and does not exist in modern chemistry.",
+    "is_correct": null,
+    "type": "non_existent"
+  },
+  {
+    "category": "recent_knowledge",
+    "question": "Who won the Nobel Prize in Physics in 2024?",
+    "expected_answer": "John Hopfield and Geoffrey Hinton",
+    "ai_answer": "As of now, the Nobel Prize in Physics for 2024 has **not yet been announced**. The announcement typically occurs in early October each year.",
+    "is_correct": null,
+    "type": "factual"
+  }
+]

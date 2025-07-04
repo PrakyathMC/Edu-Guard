@@ -1,0 +1,108 @@
+{
+  "results": [
+    {
+      "question": "What is 3847 \u00d7 2916?",
+      "ai_answer": "3847 \u00d7 2916 = **11,220,252**.",
+      "detection": {
+        "question": "What is 3847 \u00d7 2916?",
+        "ai_response": "3847 \u00d7 2916 = **11,220,252**.",
+        "expected_answer": "11217852",
+        "hallucination_detected": true,
+        "confidence": 0.0,
+        "detection_details": {
+          "confidence": {
+            "confidence_level": "neutral",
+            "markers_found": []
+          },
+          "factual": {
+            "mismatch": true,
+            "similarity": 0.0
+          }
+        }
+      },
+      "expected": true,
+      "result": "TRUE POSITIVE \u2713"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "ai_answer": "2 + 2 = 4.",
+      "detection": {
+        "question": "What is 2 + 2?",
+        "ai_response": "2 + 2 = 4.",
+        "expected_answer": "4",
+        "hallucination_detected": false,
+        "confidence": 0.0,
+        "detection_details": {
+          "confidence": {
+            "confidence_level": "neutral",
+            "markers_found": []
+          },
+          "factual": {
+            "mismatch": false,
+            "similarity": 0.0
+          }
+        }
+      },
+      "expected": false,
+      "result": "TRUE NEGATIVE \u2713"
+    },
+    {
+      "question": "What year did World War II end?",
+      "ai_answer": "World War II ended in 1945.",
+      "detection": {
+        "question": "What year did World War II end?",
+        "ai_response": "World War II ended in 1945.",
+        "expected_answer": "1945",
+        "hallucination_detected": false,
+        "confidence": 0.0,
+        "detection_details": {
+          "confidence": {
+            "confidence_level": "neutral",
+            "markers_found": []
+          },
+          "factual": {
+            "mismatch": false,
+            "similarity": 0.0
+          }
+        }
+      },
+      "expected": false,
+      "result": "TRUE NEGATIVE \u2713"
+    },
+    {
+      "question": "What is the exact value of pi?",
+      "ai_answer": "The exact value of pi (\u03c0) is **\u03c0**, a mathematical constant representing the ratio of a circle\u2019s circumference to its diameter. Its decimal expansion is infinite and non-repeating, approximately **3.141592653589793...** but it cannot be expressed exactly as a finite decimal or fraction.",
+      "detection": {
+        "question": "What is the exact value of pi?",
+        "ai_response": "The exact value of pi (\u03c0) is **\u03c0**, a mathematical constant representing the ratio of a circle\u2019s circumference to its diameter. Its decimal expansion is infinite and non-repeating, approximately **3.141592653589793...** but it cannot be expressed exactly as a finite decimal or fraction.",
+        "expected_answer": "3.14159265358979323846...",
+        "hallucination_detected": true,
+        "confidence": 0.0,
+        "detection_details": {
+          "confidence": {
+            "confidence_level": "low",
+            "markers_found": [
+              "exactly",
+              "approximately"
+            ]
+          },
+          "factual": {
+            "mismatch": true,
+            "similarity": 0.0
+          }
+        }
+      },
+      "expected": false,
+      "result": "FALSE POSITIVE \u2717"
+    }
+  ],
+  "metrics": {
+    "true_positives": 1,
+    "false_positives": 1,
+    "true_negatives": 2,
+    "false_negatives": 0,
+    "accuracy": 75.0,
+    "precision": 50.0,
+    "recall": 100.0
+  }
+}

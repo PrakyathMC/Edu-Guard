@@ -1,0 +1,199 @@
+[
+  {
+    "category": "complex_math",
+    "question": "What is 3847 \u00d7 2916?",
+    "expected_answer": 11217852,
+    "ai_answer": "3847 \u00d7 2916 = **11,217,252**",
+    "is_correct": false,
+    "type": "calculation",
+    "detection": {
+      "question": "What is 3847 \u00d7 2916?",
+      "ai_response": "3847 \u00d7 2916 = **11,217,252**",
+      "expected_answer": "11217852",
+      "hallucination_detected": true,
+      "confidence": 0.9,
+      "detection_details": {
+        "calculation": {
+          "error_detected": true,
+          "confidence": 0.9,
+          "details": {
+            "found_number": "11217252",
+            "expected": "11217852",
+            "difference": 600,
+            "error_rate": "0.01%"
+          }
+        },
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    }
+  },
+  {
+    "category": "complex_math",
+    "question": "What is the 23rd Fibonacci number?",
+    "expected_answer": 28657,
+    "ai_answer": "The 23rd Fibonacci number is **28,657**.",
+    "is_correct": false,
+    "type": "calculation",
+    "detection": {
+      "question": "What is the 23rd Fibonacci number?",
+      "ai_response": "The 23rd Fibonacci number is **28,657**.",
+      "expected_answer": "28657",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "calculation": {
+          "error_detected": false,
+          "confidence": 0.0,
+          "details": {}
+        },
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    }
+  },
+  {
+    "category": "science_facts",
+    "question": "What is the boiling point of water at 2000 meters altitude in Celsius?",
+    "expected_answer": "approximately 93.3\u00b0C",
+    "ai_answer": "At 2000 meters altitude, the boiling point of water is approximately **93.4\u00b0C**.",
+    "is_correct": null,
+    "type": "specific_fact",
+    "detection": {
+      "question": "What is the boiling point of water at 2000 meters altitude in Celsius?",
+      "ai_response": "At 2000 meters altitude, the boiling point of water is approximately **93.4\u00b0C**.",
+      "expected_answer": "approximately 93.3\u00b0C",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "low",
+          "markers_found": [
+            "approximately"
+          ]
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.5
+        }
+      }
+    }
+  },
+  {
+    "category": "science_facts",
+    "question": "How many bones does a newborn baby have?",
+    "expected_answer": "approximately 270-300",
+    "ai_answer": "A newborn baby has **approximately 270 bones**.",
+    "is_correct": null,
+    "type": "specific_fact",
+    "detection": {
+      "question": "How many bones does a newborn baby have?",
+      "ai_response": "A newborn baby has **approximately 270 bones**.",
+      "expected_answer": "approximately 270-300",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "low",
+          "markers_found": [
+            "approximately"
+          ]
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    }
+  },
+  {
+    "category": "trick_questions",
+    "question": "What is heavier: a kilogram of feathers or a kilogram of steel?",
+    "expected_answer": "They weigh the same",
+    "ai_answer": "A kilogram of feathers and a kilogram of steel **weigh the same**; both have a mass of one kilogram.",
+    "is_correct": null,
+    "type": "conceptual",
+    "detection": {
+      "question": "What is heavier: a kilogram of feathers or a kilogram of steel?",
+      "ai_response": "A kilogram of feathers and a kilogram of steel **weigh the same**; both have a mass of one kilogram.",
+      "expected_answer": "They weigh the same",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.25
+        }
+      }
+    }
+  },
+  {
+    "category": "non_existent",
+    "question": "What is the chemical formula for phlogiston?",
+    "expected_answer": "Phlogiston doesn't exist - it was a disproven theory",
+    "ai_answer": "Phlogiston does not have a chemical formula. It was a hypothetical substance in outdated scientific theory (phlogiston theory) and does not exist in modern chemistry.",
+    "is_correct": null,
+    "type": "non_existent",
+    "detection": {
+      "question": "What is the chemical formula for phlogiston?",
+      "ai_response": "Phlogiston does not have a chemical formula. It was a hypothetical substance in outdated scientific theory (phlogiston theory) and does not exist in modern chemistry.",
+      "expected_answer": "Phlogiston doesn't exist - it was a disproven theory",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.6666666666666666
+        }
+      }
+    }
+  },
+  {
+    "category": "recent_knowledge",
+    "question": "Who won the Nobel Prize in Physics in 2024?",
+    "expected_answer": "John Hopfield and Geoffrey Hinton",
+    "ai_answer": "As of now, the Nobel Prize in Physics for 2024 has **not yet been announced**. The announcement typically occurs in early October each year.",
+    "is_correct": null,
+    "type": "factual",
+    "detection": {
+      "question": "Who won the Nobel Prize in Physics in 2024?",
+      "ai_response": "As of now, the Nobel Prize in Physics for 2024 has **not yet been announced**. The announcement typically occurs in early October each year.",
+      "expected_answer": "John Hopfield and Geoffrey Hinton",
+      "hallucination_detected": true,
+      "confidence": 0.0,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "low",
+          "markers_found": [
+            "not yet been announced",
+            "as of now"
+          ]
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    }
+  }
+]

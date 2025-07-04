@@ -1,0 +1,235 @@
+{
+  "test_date": "20250704_084808",
+  "model": "gpt-4.1",
+  "total_questions": 12,
+  "total_hallucinations": 4,
+  "hallucination_rate": 33.33333333333333,
+  "by_category": {
+    "math_complex": {
+      "total": 3,
+      "hallucinations": 3
+    },
+    "science": {
+      "total": 3,
+      "hallucinations": 1
+    },
+    "history": {
+      "total": 2,
+      "hallucinations": 0
+    },
+    "geography": {
+      "total": 2,
+      "hallucinations": 0
+    },
+    "trick": {
+      "total": 2,
+      "hallucinations": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "question": "What is 8743 \u00d7 6291?",
+      "expected": "55025913",
+      "ai_answer": "8743 \u00d7 6291 = 54,957,213",
+      "category": "math_complex",
+      "hallucination_detected": true,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What is sqrt(87436)?",
+      "expected": "295.693",
+      "ai_answer": "The square root of 87,436 is **296**.",
+      "category": "math_complex",
+      "hallucination_detected": true,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What is 2^15?",
+      "expected": "32768",
+      "ai_answer": "2^15 = 32,768",
+      "category": "math_complex",
+      "hallucination_detected": true,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What is the speed of light in m/s?",
+      "expected": "299792458",
+      "ai_answer": "The speed of light in a vacuum is **299,792,458 meters per second (m/s)**.",
+      "category": "science",
+      "hallucination_detected": true,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": true,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "How many chromosomes do humans have?",
+      "expected": "46",
+      "ai_answer": "Humans have 46 chromosomes.",
+      "category": "science",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "expected": "6",
+      "ai_answer": "The atomic number of carbon is 6.",
+      "category": "science",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "In what year did Columbus reach America?",
+      "expected": "1492",
+      "ai_answer": "1492",
+      "category": "history",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "When was the Declaration of Independence signed?",
+      "expected": "1776",
+      "ai_answer": "The Declaration of Independence was signed on July 4, 1776.",
+      "category": "history",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Mongolia?",
+      "expected": "Ulaanbaatar",
+      "ai_answer": "Ulaanbaatar.",
+      "category": "geography",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "How many countries are in Africa?",
+      "expected": "54",
+      "ai_answer": "There are 54 countries in Africa.",
+      "category": "geography",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What happens when an unstoppable force meets an immovable object?",
+      "expected": "paradox",
+      "ai_answer": "The scenario is a paradox: by definition, both cannot exist simultaneously. If an unstoppable force exists, nothing can be immovable, and if an immovable object exists, nothing can be unstoppable. Therefore, the question is logically impossible.",
+      "category": "trick",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    },
+    {
+      "question": "What's the last digit of pi?",
+      "expected": "no last digit",
+      "ai_answer": "Pi (\u03c0) is an **irrational number**; it has **no last digit**.",
+      "category": "trick",
+      "hallucination_detected": false,
+      "detection_details": {
+        "confidence": {
+          "confidence_level": "neutral",
+          "markers_found": []
+        },
+        "factual": {
+          "mismatch": false,
+          "similarity": 0.0
+        }
+      }
+    }
+  ]
+}

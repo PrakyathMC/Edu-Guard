@@ -1,0 +1,83 @@
+{
+  "overall": {
+    "total_questions": 65,
+    "total_hallucinations": 28,
+    "hallucination_rate": 43.08
+  },
+  "by_category": {
+    "mathematics": {
+      "total": 15,
+      "hallucinations": 11,
+      "rate": 73.33
+    },
+    "science": {
+      "total": 25,
+      "hallucinations": 12,
+      "rate": 48.0
+    },
+    "factual": {
+      "total": 20,
+      "hallucinations": 3,
+      "rate": 15.0
+    },
+    "reasoning": {
+      "total": 5,
+      "hallucinations": 2,
+      "rate": 40.0
+    }
+  },
+  "by_subcategory": {
+    "arithmetic": {
+      "total": 15,
+      "hallucinations": 11,
+      "rate": 73.33
+    },
+    "physics": {
+      "total": 10,
+      "hallucinations": 6,
+      "rate": 60.0
+    },
+    "chemistry": {
+      "total": 10,
+      "hallucinations": 4,
+      "rate": 40.0
+    },
+    "biology": {
+      "total": 5,
+      "hallucinations": 2,
+      "rate": 40.0
+    },
+    "history": {
+      "total": 10,
+      "hallucinations": 2,
+      "rate": 20.0
+    },
+    "geography": {
+      "total": 10,
+      "hallucinations": 1,
+      "rate": 10.0
+    },
+    "logic": {
+      "total": 5,
+      "hallucinations": 2,
+      "rate": 40.0
+    }
+  },
+  "by_difficulty": {
+    "medium": {
+      "total": 27,
+      "hallucinations": 13,
+      "rate": 48.15
+    },
+    "hard": {
+      "total": 16,
+      "hallucinations": 11,
+      "rate": 68.75
+    },
+    "easy": {
+      "total": 22,
+      "hallucinations": 4,
+      "rate": 18.18
+    }
+  }
+}

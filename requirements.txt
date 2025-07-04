@@ -1,0 +1,9 @@
+# Install basic packages
+openai 
+anthropic 
+python-dotenv 
+numpy 
+pandas 
+matplotlib 
+seaborn 
+jupyter

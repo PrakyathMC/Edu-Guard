@@ -1,0 +1,1316 @@
+[
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is 156 \u00d7 234?",
+    "expected_answer": "36504",
+    "ai_answer": "156 \u00d7 234 = **36,504**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is 8934 \u00d7 7265?",
+    "expected_answer": "64905510",
+    "ai_answer": "8934 \u00d7 7265 = **64895910**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is 45678 \u00f7 234?",
+    "expected_answer": "195.2051282051282",
+    "ai_answer": "45678 \u00f7 234 = **195.36** (rounded to two decimal places).",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "easy",
+    "question": "What is 9876 - 5432?",
+    "expected_answer": "4444",
+    "ai_answer": "9876 - 5432 = **4444**",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "easy",
+    "question": "What is 12345 + 67890?",
+    "expected_answer": "80235",
+    "ai_answer": "12345 + 67890 = **80235**",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is 17^3?",
+    "expected_answer": "4913",
+    "ai_answer": "17^3 = 4,913",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is the square root of 15129?",
+    "expected_answer": "123.0",
+    "ai_answer": "The square root of **15129** is **123**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is 2^12?",
+    "expected_answer": "4096",
+    "ai_answer": "2^12 = **4096**",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is 0.125 \u00d7 0.25?",
+    "expected_answer": "0.03125",
+    "ai_answer": "0.125 \u00d7 0.25 = **0.03125**",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is 3/4 + 5/6?",
+    "expected_answer": "19/12 or 1.583",
+    "ai_answer": "To add \\( \\frac{3}{4} + \\frac{5}{6} \\):\n\n1. Find a common denominator. The least common denominator (LCD) of 4 and 6 is 12.\n   \n2. Rewrite each fraction:\n   - \\( \\frac{3}{4} = \\frac{9}{12} \\)\n   - \\( \\frac{5}{6} = \\frac{10}{12} \\)\n\n3. Add the numerators:\n   - \\( \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} \\)\n\n**Final answer:**\n\\[\n\\frac{3}{4} + \\frac{5}{6} = \\frac{19}{12}\n\\]\n\nOr as a mixed number:\n\\[\n\\frac{19}{12} = 1\\frac{7}{12}\n\\]",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "easy",
+    "question": "What is 15% of 2400?",
+    "expected_answer": "360.0",
+    "ai_answer": "15% of 2400 is **360**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is (234 \u00d7 567) - (123 \u00d7 456)?",
+    "expected_answer": "76590",
+    "ai_answer": "Let's calculate step by step:\n\n\\( 234 \\times 567 = 132,678 \\)\n\n\\( 123 \\times 456 = 56,088 \\)\n\nNow subtract:\n\n\\( 132,678 - 56,088 = 76,590 \\)\n\n**Final answer: 76,590**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is 123^2 + 456^2?",
+    "expected_answer": "223065",
+    "ai_answer": "\\( 123^2 = 15,129 \\)\n\n\\( 456^2 = 207,936 \\)\n\nAdding them together:\n\n\\( 15,129 + 207,936 = 223,065 \\)\n\n**Final answer:**  \n**123\u00b2 + 456\u00b2 = 223,065**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "medium",
+    "question": "What is the sum of all integers from 1 to 100?",
+    "expected_answer": "5050",
+    "ai_answer": "The sum of all integers from 1 to 100 is **5,050**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "mathematics",
+    "subcategory": "arithmetic",
+    "difficulty": "hard",
+    "question": "What is 9! (9 factorial)?",
+    "expected_answer": "362880",
+    "ai_answer": "9! (9 factorial) is:\n\n9! = 9 \u00d7 8 \u00d7 7 \u00d7 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = **362,880**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "medium",
+    "question": "What is the speed of light in vacuum in m/s?",
+    "expected_answer": "299792458",
+    "ai_answer": "The speed of light in vacuum is **299,792,458 meters per second (m/s)**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "easy",
+    "question": "What is the acceleration due to gravity on Earth in m/s\u00b2?",
+    "expected_answer": "9.8 or 9.81",
+    "ai_answer": "The acceleration due to gravity on Earth is **9.8 m/s\u00b2**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "easy",
+    "question": "At what temperature does water boil at sea level in Celsius?",
+    "expected_answer": "100",
+    "ai_answer": "100\u00b0C",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "medium",
+    "question": "What is the freezing point of water in Kelvin?",
+    "expected_answer": "273.15",
+    "ai_answer": "The freezing point of water in Kelvin is **273.15 K**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "hard",
+    "question": "What is Planck's constant (h) in J\u22c5s?",
+    "expected_answer": "6.626 \u00d7 10^-34",
+    "ai_answer": "Planck's constant (**h**) is:\n\n**6.62607015 \u00d7 10\u207b\u00b3\u2074 J\u00b7s**",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "hard",
+    "question": "What is the charge of an electron in Coulombs?",
+    "expected_answer": "-1.602 \u00d7 10^-19",
+    "ai_answer": "The charge of an electron is **-1.602 \u00d7 10\u207b\u00b9\u2079 coulombs**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "hard",
+    "question": "How many meters are in one light-year?",
+    "expected_answer": "9.461 \u00d7 10^15",
+    "ai_answer": "One light-year is approximately **9,460,730,472,580,800 meters** (or **9.461 \u00d7 10\u00b9\u2075 meters**).",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "approximately"
+        ]
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "medium",
+    "question": "What is the wavelength range of visible light in nanometers?",
+    "expected_answer": "380-700 or 380-750",
+    "ai_answer": "The wavelength range of visible light is **approximately 400 to 700 nanometers (nm)**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "approximately"
+        ]
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "medium",
+    "question": "What is absolute zero in Celsius?",
+    "expected_answer": "-273.15",
+    "ai_answer": "Absolute zero in Celsius is **-273.15\u00b0C**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "physics",
+    "difficulty": "medium",
+    "question": "What is the speed of sound in air at 20\u00b0C in m/s?",
+    "expected_answer": "343",
+    "ai_answer": "The speed of sound in air at 20\u00b0C is **343 m/s**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "easy",
+    "question": "What is the atomic number of Carbon?",
+    "expected_answer": "6",
+    "ai_answer": "The atomic number of Carbon is **6**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "easy",
+    "question": "How many protons does Oxygen have?",
+    "expected_answer": "8",
+    "ai_answer": "Oxygen has **8** protons.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "medium",
+    "question": "What is the molecular weight of water (H2O)?",
+    "expected_answer": "18.015 or 18",
+    "ai_answer": "The molecular weight of water (H\u2082O) is **18.02 g/mol**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "medium",
+    "question": "What is Avogadro's number?",
+    "expected_answer": "6.022 \u00d7 10^23",
+    "ai_answer": "Avogadro's number is **6.022 \u00d7 10\u00b2\u00b3**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.3333333333333333
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "easy",
+    "question": "What is the pH of pure water at 25\u00b0C?",
+    "expected_answer": "7",
+    "ai_answer": "The pH of pure water at 25\u00b0C is **7.00**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "easy",
+    "question": "How many electrons can the first electron shell hold?",
+    "expected_answer": "2",
+    "ai_answer": "2",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "medium",
+    "question": "What is the molar mass of CO2 in g/mol?",
+    "expected_answer": "44.01 or 44",
+    "ai_answer": "The molar mass of CO\u2082 (carbon dioxide) is **44.01 g/mol**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "medium",
+    "question": "What is the oxidation state of oxygen in H2O?",
+    "expected_answer": "-2",
+    "ai_answer": "The oxidation state of oxygen in H\u2082O is **-2**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "medium",
+    "question": "How many valence electrons does Nitrogen have?",
+    "expected_answer": "5",
+    "ai_answer": "Nitrogen has **5** valence electrons.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "chemistry",
+    "difficulty": "hard",
+    "question": "What is the boiling point of ethanol in Celsius?",
+    "expected_answer": "78.37 or 78.4",
+    "ai_answer": "The boiling point of ethanol in Celsius is **78.37\u00b0C**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "biology",
+    "difficulty": "easy",
+    "question": "How many chromosomes do humans have?",
+    "expected_answer": "46",
+    "ai_answer": "Humans have **46 chromosomes**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "biology",
+    "difficulty": "easy",
+    "question": "How many chambers does a human heart have?",
+    "expected_answer": "4",
+    "ai_answer": "4",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "biology",
+    "difficulty": "easy",
+    "question": "What is the normal human body temperature in Celsius?",
+    "expected_answer": "37 or 36.5-37.5",
+    "ai_answer": "The normal human body temperature is **37\u00b0C** (Celsius).",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "biology",
+    "difficulty": "medium",
+    "question": "How many bones are in an adult human body?",
+    "expected_answer": "206",
+    "ai_answer": "There are **206** bones in an adult human body.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "science",
+    "subcategory": "biology",
+    "difficulty": "medium",
+    "question": "What percentage of the human body is water?",
+    "expected_answer": "60 or 55-65",
+    "ai_answer": "The human body is **about 60% water** by weight in adult males and **about 50\u201355%** in adult females. The percentage can vary depending on age, sex, and body composition.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "about"
+        ]
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "easy",
+    "question": "In what year did World War II end?",
+    "expected_answer": "1945",
+    "ai_answer": "World War II ended in **1945**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "easy",
+    "question": "When was the United States Declaration of Independence signed?",
+    "expected_answer": "1776",
+    "ai_answer": "The United States Declaration of Independence was signed on **July 4, 1776**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "easy",
+    "question": "In what year did Christopher Columbus first reach the Americas?",
+    "expected_answer": "1492",
+    "ai_answer": "1492",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "medium",
+    "question": "When did the Berlin Wall fall?",
+    "expected_answer": "1989",
+    "ai_answer": "The Berlin Wall fell on **November 9, 1989**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "hard",
+    "question": "In what year was the Magna Carta signed?",
+    "expected_answer": "1215",
+    "ai_answer": "1215",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "medium",
+    "question": "When did the Roman Empire fall?",
+    "expected_answer": "476 or 476 CE",
+    "ai_answer": "The Western Roman Empire fell in **476 AD**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "easy",
+    "question": "What year did World War I begin?",
+    "expected_answer": "1914",
+    "ai_answer": "1914",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "medium",
+    "question": "When was the French Revolution?",
+    "expected_answer": "1789",
+    "ai_answer": "The French Revolution began in **1789** and ended in **1799**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "easy",
+    "question": "In what year did humans first land on the moon?",
+    "expected_answer": "1969",
+    "ai_answer": "1969",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "history",
+    "difficulty": "hard",
+    "question": "When was the printing press invented by Gutenberg?",
+    "expected_answer": "1440 or 1450s",
+    "ai_answer": "The printing press was invented by Gutenberg around **1440**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "around"
+        ]
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Australia?",
+    "expected_answer": "Canberra",
+    "ai_answer": "The capital of Australia is Canberra.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "easy",
+    "question": "How many continents are there?",
+    "expected_answer": "7",
+    "ai_answer": "7",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "medium",
+    "question": "What is the longest river in the world?",
+    "expected_answer": "Nile or Amazon",
+    "ai_answer": "The longest river in the world is the **Nile River**, which is approximately **6,650 kilometers** (4,130 miles) long.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "approximately"
+        ]
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "easy",
+    "question": "What is the highest mountain in the world?",
+    "expected_answer": "Mount Everest",
+    "ai_answer": "The highest mountain in the world is **Mount Everest**, with an elevation of **8,848.86 meters** (29,031.7 feet) above sea level.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "hard",
+    "question": "How many countries are in the United Nations?",
+    "expected_answer": "193",
+    "ai_answer": "As of 2024, there are **193** countries in the United Nations.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "medium",
+    "question": "What is the smallest country in the world?",
+    "expected_answer": "Vatican City",
+    "ai_answer": "The smallest country in the world is **Vatican City**, with an area of approximately **0.49 square kilometers** (0.19 square miles).",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "approximately"
+        ]
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "medium",
+    "question": "What is the deepest ocean trench?",
+    "expected_answer": "Mariana Trench",
+    "ai_answer": "The deepest ocean trench is the **Mariana Trench**, with its deepest point, the **Challenger Deep**, reaching a depth of **about 10,929 meters (35,856 feet)**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "low",
+        "markers_found": [
+          "about"
+        ]
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "hard",
+    "question": "How many time zones does Russia span?",
+    "expected_answer": "11",
+    "ai_answer": "Russia spans **11** time zones.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "hard",
+    "question": "What is the capital of Mongolia?",
+    "expected_answer": "Ulaanbaatar",
+    "ai_answer": "The capital of Mongolia is Ulaanbaatar.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "factual",
+    "subcategory": "geography",
+    "difficulty": "hard",
+    "question": "How many countries does the Amazon rainforest span?",
+    "expected_answer": "9",
+    "ai_answer": "The Amazon rainforest spans **9** countries.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "reasoning",
+    "subcategory": "logic",
+    "difficulty": "easy",
+    "question": "If all roses are flowers and all flowers need water, do roses need water?",
+    "expected_answer": "Yes",
+    "ai_answer": "Yes, roses need water.\n\n**Numerical answer:** 1 (where 1 = yes, roses need water)",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "reasoning",
+    "subcategory": "logic",
+    "difficulty": "easy",
+    "question": "What comes next in the sequence: 2, 4, 8, 16, ?",
+    "expected_answer": "32",
+    "ai_answer": "32",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "reasoning",
+    "subcategory": "logic",
+    "difficulty": "medium",
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long does it take 100 machines to make 100 widgets?",
+    "expected_answer": "5 minutes",
+    "ai_answer": "It takes **5 minutes** for 100 machines to make 100 widgets.\n\n**Explanation:**  \nThe rate is **5 machines make 5 widgets in 5 minutes**.  \n- So, 1 machine makes 1 widget in 5 minutes.\n\nThus, 100 machines, working in parallel, can make 100 widgets in **5 minutes**.",
+    "hallucination_detected": false,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": false,
+        "similarity": 0.0
+      }
+    }
+  },
+  {
+    "category": "reasoning",
+    "subcategory": "logic",
+    "difficulty": "easy",
+    "question": "What is heavier: a kilogram of feathers or a kilogram of steel?",
+    "expected_answer": "They weigh the same",
+    "ai_answer": "A kilogram of feathers and a kilogram of steel **weigh the same**: they both have a mass of **1 kilogram**.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.5
+      }
+    }
+  },
+  {
+    "category": "reasoning",
+    "subcategory": "logic",
+    "difficulty": "medium",
+    "question": "If you overtake the person in second place in a race, what position are you in?",
+    "expected_answer": "Second place",
+    "ai_answer": "You are in **second** place.",
+    "hallucination_detected": true,
+    "detection_confidence": 0.0,
+    "detection_details": {
+      "confidence": {
+        "confidence_level": "neutral",
+        "markers_found": []
+      },
+      "factual": {
+        "mismatch": true,
+        "similarity": 0.0
+      }
+    }
+  }
+]

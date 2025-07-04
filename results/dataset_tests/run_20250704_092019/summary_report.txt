@@ -1,0 +1,32 @@
+HALLUCINATION DETECTION TEST REPORT
+Generated: 2025-07-04 09:21:52
+======================================================================
+
+OVERALL STATISTICS
+------------------------------
+Total Questions: 65
+Total Hallucinations: 28
+Overall Hallucination Rate: 43.08%
+
+BY CATEGORY
+------------------------------
+mathematics     | Total:  15 | Hallucinations:  11 | Rate:  73.33%
+science         | Total:  25 | Hallucinations:  12 | Rate:  48.00%
+factual         | Total:  20 | Hallucinations:   3 | Rate:  15.00%
+reasoning       | Total:   5 | Hallucinations:   2 | Rate:  40.00%
+
+BY SUBCATEGORY
+------------------------------
+arithmetic      | Total:  15 | Hallucinations:  11 | Rate:  73.33%
+physics         | Total:  10 | Hallucinations:   6 | Rate:  60.00%
+chemistry       | Total:  10 | Hallucinations:   4 | Rate:  40.00%
+biology         | Total:   5 | Hallucinations:   2 | Rate:  40.00%
+history         | Total:  10 | Hallucinations:   2 | Rate:  20.00%
+geography       | Total:  10 | Hallucinations:   1 | Rate:  10.00%
+logic           | Total:   5 | Hallucinations:   2 | Rate:  40.00%
+
+BY DIFFICULTY
+------------------------------
+medium     | Total:  27 | Hallucinations:  13 | Rate:  48.15%
+hard       | Total:  16 | Hallucinations:  11 | Rate:  68.75%
+easy       | Total:  22 | Hallucinations:   4 | Rate:  18.18%
